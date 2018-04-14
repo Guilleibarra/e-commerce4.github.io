@@ -1,0 +1,249 @@
+<!doctype html>
+ <html>
+  <head>
+   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+  <title>Sitio e-commerse boostrap 4</title>
+
+	</head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark navbar navbar-expand-md ">
+      <a class="navbar-brand" href="#">e-commerce</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav ml-auto navbar-right">
+          <div class="nav-item mr-3">
+            <button class="btn btn-link"><i class="fa fa-shopping-cart"></i> Canasta</button>
+          </div>
+          <div class="nav-item">
+             <button class="btn btn-link"> Canasta</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+      <div class="row"> 
+        <div class="col-lg-3 col-md-12">
+          <div class="buscador">
+            <form action="">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Buscar camisetas">
+                <div class="input-group-btn">
+                  <button type="button" class="btn btn-default" aria-label="Left Align">
+                    <span class="fa fa-search" aria-hidden="true"></span> 
+                  </button>
+                </div>
+              </div>
+            </form>
+            <div class="d-none d-lg-block">
+              <h3>Categorias</h3>
+              <ul class="list-group">
+                <li class="list-group-item active d-flex justify-content-between">
+                  Todas <span class="badge badge-pill badge-secondary">100</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                  Hombre <span class="badge badge-pill badge-secondary">4</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                  Mujer <span class="badge badge-pill badge-secondary">12</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                  Hipster <span class="badge badge-pill badge-secondary">24</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                  Metal <span class="badge badge-pill badge-secondary">6</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                  Universidad <span class="badge badge-pill badge-secondary">5</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                  Deportiva <span class="badge badge-pill badge-secondary">8</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                  Rayas <span class="badge badge-pill badge-secondary">11</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                  Apretadas <span class="badge badge-pill badge-secondary">19</span>
+                </li>
+              </ul>
+            </div>     
+          </div> 
+        </div>
+        <div class="col-lg-9 col-md-12">
+          <div class="carrusel">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                   <img class="d-block w-100" src="images/banner-slider-1.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                   <img class="d-block w-100" src="images/banner-slider-2.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                   <img class="d-block w-100" src="images/banner-slider-3.jpg" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>  
+          <div class="imagenes"> 
+            <div class="row">
+              <div class="col-md-4 col-6 ">
+                <div class="thumbnail">
+                  <img src="images/camiseta-1.jpg" alt="Responsive image">
+                  <h3><strong>Hipster ultimate</strong></h3>
+                  <p>La camiseta ideal para hipster</p>
+                  <button type="button" class="btn btn-primary btn-md" >
+                    $229 <span class="fa fa-shopping-cart" aria-hidden="true"></span>
+                  </button>
+                  <button type="button" class="btn btn default btn-md" data-toggle="modal" data-target="#myModal">
+                    <span class="" aria-hidden="true"></span> Detalles
+                  </button>
+                  <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Hipster ultimate</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                             <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="col-md-12">
+                            <div class="alert alert-info alert-dismissible" role="alert">
+                              <button class="btn btn-link">
+                                <i class="fa fa-info-circle"></i> Este producto esta agotado.
+                              </button> 
+                            </div>
+                          </div>  
+                          <div class="row">
+                            <div class="col-md-6">
+                              <div class="thumbnail">
+                                <img src="images/camiseta-1.jpg" alt="Responsive image"  class="center-block" class="img-thumbnail">
+                              </div>
+                            </div>   
+                            <div class="col-md-6">
+                              <P>precio: 299</P>
+                              <P>Calificación: <i class="fas fa-star"></i>
+                                <span class="fas fa-star" aria-hidden="true"></span>
+                                <span class="fas fa-star" aria-hidden="true"></span>
+                                <span class="fas fa-star" aria-hidden="true"></span> 
+                                <span class="fal fa-star" aria-hidden="true"></span> 
+                              </P>
+                              <button type="button" class="btn btn-warning btn-sm">Hipster</button>
+                              <button type="button" class="btn btn-secondary btn-sm">Deportiva</button>
+                                <div class="row">
+                                  <span class="fa fa-heart" class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                                  <span><a href="#"> Agregar a los deseos</a></span> 
+                                </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-12">
+                              <ul class="nav nav-tabs" role="tablist">
+                                <li class="nav-item">
+                                  <a class="nav-link active" data-toggle="tab" href="#menu1">Descripción</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" data-toggle="tab" href="#menu2">Comentarios</a>
+                                </li>
+                              </ul>
+                              <div class="tab-content">
+                                 <div id="menu1" class="container tab-pane active"><br>
+                                   <p>Esta camiseta viene en todas las tallas, es de algodon y elaborada a mano</p>
+                                 </div>
+                                 <div id="menu2" class="container tab-pane fade"><br>
+                                    <ul class="list-group">
+                                      <li class="list-group-item">German Escobar escribio hace 2 días</li>
+                                      <li class="list-group-item">Esta camiseta esta increible, la quiero</li>
+                                    </ul>
+                                    <textarea class="form-control" rows="3" placeholder="Ingresa tu comentario"></textarea>
+                                 </div>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Comprar</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-6 ">
+                <div class="thumbnail"> 
+                  <img src="images/camiseta-2.jpg" alt="Responsive image"  class="center-block" class="img-thumbnail">
+                  <h3><strong>On motion live</strong></h3>
+                  <p>Perfecta para salidas rocosas</p>
+                  <button type="button" class="btn btn-primary btn-md">
+                    $320 <span class="fa fa-shopping-cart" aria-hidden="true"></span>
+                  </button>
+                  <button type="button" class="btn btn default btn-md">
+                    <span class="" aria-hidden="true"></span> Detalles
+                  </button>
+                </div> 
+              </div>
+              <div class="col-md-4 col-6 ">
+                <div class="thumbnail">
+                  <img src="images/camiseta-3.jpg" alt="Responsive image"  class="center-block" class="img-thumbnail">
+                  <h3><strong>Underground max</strong></h3>
+                  <p>Para los amantes del underground</p>
+                  <button type="button" class="btn btn-primary btn-md">
+                    $290 <span class="fa fa-shopping-cart" aria-hidden="true"></span>
+                  </button>
+                  <button type="button" class="btn btn default btn-md">
+                    <span class="" aria-hidden="true"></span> Detalles
+                  </button>
+                </div>
+              </div>
+              <div class="col-md-4 col-6 ">
+                <div class="thumbnail">
+                  <img src="images/camiseta-4.jpg" alt="Responsive image"  class="center-block" class="img-thumbnail">
+                  <h3><strong>Santo domingo tiger</strong></h3>
+                  <p>La camiseta para los amantes de los animales</p>
+                  <button type="button" class="btn btn-primary btn-md">
+                    $240 <span class="fa fa-shopping-cart" aria-hidden="true"></span>
+                  </button>
+                  <button type="button" class="btn btn default btn-md">
+                    <span class="" aria-hidden="true"></span> Detalles
+                  </button>
+                </div>
+              </div>
+              <div class="col-md-4 col-6 ">
+                <div class="thumbnail">
+                  <img src="images/camiseta-5.jpg" alt="Responsive image"  class="center-block" class="img-thumbnail">
+                  <h3><strong>Una camiseta mas</strong></h3>
+                  <p>La camiseta para cualquier ocasion</p>
+                  <button type="button" class="btn btn-primary btn-md">
+                    $235  <span class="fa fa-shopping-cart" aria-hidden="true"></span>
+                  </button>
+                  <button type="button" class="btn btn default btn-md">
+                    <span class="" aria-hidden="true"></span> Detalles
+                  </button>
+                </div>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+     
+  </body>
+</html>
