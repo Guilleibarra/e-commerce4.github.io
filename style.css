@@ -1,0 +1,22 @@
+.buscador {
+	margin-bottom: 20px;
+}
+
+.buscador {
+	padding: 20px;
+}
+
+.col-md-4 {
+	padding: 20px;
+}
+.carrusel {
+	padding: 20px;
+}
+
+@media (min-width: 1200px){
+
+}
+@media (min-width: 768px) and (max-width: 979px){
+	
+}
+
